@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd" id="WebApp_ID" version="4.0">
+  <display-name>Tbank2</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>hello.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+  <servlet>  
+  <description>test.peerlink</description>  
+  <display-name>test.peerlink</display-name>  
+  <servlet-name>test.peerlink</servlet-name>  
+  <servlet-class>test.peerlink</servlet-class>  
+  <load-on-startup>-1</load-on-startup>  
+ </servlet>  
+ <servlet-mapping>  
+  <servlet-name>test.peerlink</servlet-name>  
+  <url-pattern>/servlet/test.peerlink</url-pattern>  
+ </servlet-mapping>  
+</web-app>
